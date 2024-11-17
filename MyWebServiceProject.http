@@ -1,0 +1,6 @@
+@MyWebServiceProject_HostAddress = http://localhost:5174
+
+GET {{MyWebServiceProject_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
