@@ -19,11 +19,11 @@ namespace WebServiceL1
                 {
                     Title = "My API",
                     Version = "v1",
-                    Description = "API для тестового проекту",
+                    Description = "API Web Service Project",
                     Contact = new Microsoft.OpenApi.Models.OpenApiContact
                     {
-                        Name = "Ваше ім'я",
-                        Email = "ваша_пошта@example.com",
+                        Name = "Olha Molka",
+                        Email = "molkaolga@gmail.com",
                     }
                 });
             });
@@ -37,7 +37,6 @@ namespace WebServiceL1
                 options.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
             });
 
-            app.UseHttpsRedirection();
             app.UseAuthorization();
             app.MapControllers();
             app.Run();
